@@ -1,0 +1,8 @@
+.global-header {
+    background-color: #512da8;
+    color: white;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}

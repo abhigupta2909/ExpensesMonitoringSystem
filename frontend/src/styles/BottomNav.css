@@ -1,0 +1,23 @@
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: #484848; 
+}
+
+.bottom-nav-action-root {
+    min-width: 0; 
+    padding: 6px 12px; 
+}
+
+.bottom-nav-action-root .Mui-selected,
+.bottom-nav-action-root .MuiButtonBase-root:hover {
+    color: #4CAF50; 
+}
+
+.bottom-nav-icon {
+    font-size: 1.5rem; 
+}
+

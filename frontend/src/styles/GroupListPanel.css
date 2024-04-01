@@ -1,0 +1,28 @@
+.group-list-panel {
+    width: 200px;
+    max-height: 600px;
+    overflow-y: auto;
+    border-right: 1px solid #5409d5;
+    padding: 10px;
+}
+
+.group-item {
+    padding: 5px;
+    cursor: pointer;
+    
+}
+.group-item:hover {  
+    color: #fff; 
+    background-color: #8ea0f1;
+}
+.group-item.active {
+    background-color: #1e52ec;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+.group-list-header {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}

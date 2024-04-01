@@ -1,0 +1,41 @@
+.expense-form-fields {
+    background-color: #c9d6ff;
+    background: linear-gradient(to right, #e2e2e2, #7e9af6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-content {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+.form-content select {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #7e9af6;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.form-content select:focus {
+    outline: none;
+    border-color: #5c7cfa;
+}
+
+.form-content select:hover {
+    border-color: #4c6ef5;
+}
+
+@media (max-width: 600px) {  
+    .form-content {
+        flex-direction: column;
+    }
+    .form-content select {
+        width: 90%; 
+    }
+}
