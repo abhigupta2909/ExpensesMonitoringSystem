@@ -1,0 +1,85 @@
+.members-fieldset {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.members-fieldset ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.members-fieldset li {
+    margin-bottom: 5px;
+}
+
+label[for="splitMethodSelect"] {
+    display: block;
+    margin-right: 5px;
+    font-weight: bold; 
+    font-size: 14px; 
+}
+
+fieldset.members-fieldset, .payer-fieldset, .split-method {
+    border-color: #0026ff;
+    border-style: solid; 
+    border-width: 2px; 
+    padding: 10px;
+    border-radius: 10px; 
+}
+
+fieldset.members-fieldset legend {
+    font-weight: bold; 
+}
+
+.payer-fieldset legend {
+    font-weight: bold;
+}
+
+.payer-fieldset select {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 15px;
+}
+
+.payer-fieldset select:hover {
+    border-color: #888;
+}
+
+.payer-fieldset select:focus {
+    outline: none;
+    border-color: #555;
+}
+
+.split-method select {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 15px;
+}
+
+.split-method legend {
+    font-weight: bold;
+}

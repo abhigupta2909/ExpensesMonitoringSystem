@@ -1,0 +1,44 @@
+.chart-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px; 
+}
+
+.chart-item {
+    width: 60%;
+    height: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center; 
+    align-items: center; 
+}
+
+/* Media query for mobile phones */
+@media (max-width: 600px) {
+    .chart-item {
+        flex: 0 0 100%;
+    }
+}
+
+.date-range-picker {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 10px;
+}
+
+.pie-chart-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 40vw; 
+}
+
+@media (max-width: 600px) {
+    .pie-chart-item {
+        width: 80vw; 
+        height: 80vw; 
+    }
+}

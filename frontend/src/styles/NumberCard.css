@@ -1,0 +1,26 @@
+.number-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.number-card-title {
+    margin: 0;
+    color: #333;
+    font-size: 1.2em;
+}
+
+.number-card-number {
+    color: #28c195; /* Change color based on your preference */
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.number-card-context {
+    color: #666;
+    font-size: 1em;
+}

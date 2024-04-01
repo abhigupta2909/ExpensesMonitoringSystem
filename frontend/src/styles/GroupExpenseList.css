@@ -1,0 +1,18 @@
+.scrollable-cell {
+    max-height: 50px; 
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+.editExpense-button, .delete-button {
+    border: none;
+    background: none;
+    padding: 4px;
+    margin: 0 2px;
+}
+
+.group-table-responsive {
+    border: 1px solid #ccc;
+}
+

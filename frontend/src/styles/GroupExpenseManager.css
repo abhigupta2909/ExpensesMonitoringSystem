@@ -1,0 +1,166 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.group-util-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    margin-top: 10px;
+    background-color: #c9d6ff;
+    background: linear-gradient(to right, #e2e2e2, #345fec);
+    padding: 10px;
+}
+.group-add-form button, .join-group-form button {
+    height: 40px; 
+    margin: 5px;
+}
+
+.group-util-section {
+    width: 100%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.group-add-form, .join-group-form {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.group-add-form {
+    display: flex; 
+    align-items: center; 
+}
+
+.group-add-form input {
+    height: 25px; 
+}
+
+.group-add-form button {
+    height: 40px; 
+}
+
+.group-add-form button {
+    padding: 0 10px;
+    border: none; 
+    color: white; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+.group-add-form input {
+    flex-grow: 1; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    padding: 0 10px; 
+}
+
+
+@media (min-width: 768px) {
+    .group-util-container {
+        flex-direction: row; 
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+    }
+
+    .group-util-section {
+        width: calc(33.333% - 20px);
+        flex-direction: row; 
+    }
+}
+
+.no-group-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh; 
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333; 
+    font-size: 1.2em; 
+    background-color: #f2f2f2; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.no-group-message p {
+    margin: 10px 0;
+}
+
+.group-invite-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px; 
+}
+
+.group-invite-section input {
+    margin-right: 10px;
+}
+
+.group-invite-section input{
+    margin-top: 10px;
+    width: 250px;
+    height: 25px; 
+    padding: 0 10px; 
+    vertical-align: middle; 
+}
+
+.group-invite-section input {
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+.group-invite-section button {
+    margin-top: 10px;
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+.delete-confirmation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.delete-confirmation input {
+    flex-grow: 1; /* Allows the input field to take up as much space as possible */
+    margin-right: 10px; /* Adds some space between the input field and the buttons */
+}
+.group-invite-delete-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 20px;
+}
+
+.group-invite-section,
+.group-delete-section {
+    margin-bottom: 10px;
+}
+
+.delete-group-btn {
+    background-color: #dc3545; /* Red color for delete button */
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.confirm-delete-btn {
+    background-color: #dc3545;
+}
