@@ -79,3 +79,7 @@ https://drive.google.com/file/d/1BrFuUwa-lmmqPEa9iqWq17jiQw4uMVGa/view?usp=shari
 ![1712010012865](image/README/1712010012865.png)
 
 ![1712010012865](image/README/1712010012865.png)
+
+![1712026431202](image/README/1712026431202.png)
+
+![1712026444435](image/README/1712026444435.png)
