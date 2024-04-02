@@ -62,10 +62,20 @@ Both frontend and backend are deployed on `Heroku` Salesforce server.
 
 - Deployment link: https://serene-atoll-75134-64bea5025fac.herokuapp.com/
 
-### Team :
+### Demo Link:
 
-1. Abhishek Gupta
-2. Jiuzhou Lu
-3. Haolong Yang
-4. Julia P
-5. Siddharth Krishnakumar
+https://drive.google.com/file/d/1BrFuUwa-lmmqPEa9iqWq17jiQw4uMVGa/view?usp=sharing
+
+### Screenshots:
+
+![1712009727323](image/README/1712009727323.png)
+
+![1712009848033](image/README/1712009848033.png)
+
+![1712009848033](image/README/1712009848033.png)
+
+![1712009848033](image/README/1712009848033.png)
+
+![1712010012865](image/README/1712010012865.png)
+
+![1712010012865](image/README/1712010012865.png)
