@@ -62,6 +62,16 @@ Both frontend and backend are deployed on `Heroku` Salesforce server.
 
 - Deployment link: https://serene-atoll-75134-64bea5025fac.herokuapp.com/
 
+### Architecture
+<img width="662" alt="Architecture" src="https://github.com/user-attachments/assets/29fd6717-8760-45b6-96c6-f6f19f0cbc9b">
+
+### Database ERD
+![image](https://github.com/user-attachments/assets/3a37bfc2-7bb0-4c07-9eb2-e2db1777933d)
+
+### Deployment Design
+![image](https://github.com/user-attachments/assets/df579bf1-7156-480a-ae82-142b4d576198)
+
+
 ### Demo Link:
 
 https://drive.google.com/file/d/1BrFuUwa-lmmqPEa9iqWq17jiQw4uMVGa/view?usp=sharing
